@@ -2,17 +2,25 @@
 @import 'default';
 
 @font-face {
-  font-family: 'Inter';
+  font-family: 'Impower-Inter-Bold';
   font-style:  normal;
   font-weight: 400;
-  font-display: swap;
-  src: url('https://rsms.me/inter/font-files/Inter-Regular.woff2?v=3.19') format("woff2");
+  font-display: block;
+  src: url('https://rsms.me/inter/font-files/Inter-Bold.woff2?v=3.19') format("woff2");
 }
+
+@font-face {
+    font-family: 'Impower-Inter';
+    font-style:  normal;
+    font-weight: 200;
+    font-display: block;
+    src: url('https://rsms.me/inter/font-files/Inter-Regular.woff2?v=3.19') format("woff2");
+  }
 
 
 :root{
-  --slide-width: 1080px;
-  --slide-height: 1920px;
+  --slide-width: 1920px;
+  --slide-height: 1080px;
   --slide-half-width: calc(var(--slide-width) / 2);
   --impower-blue: #0071E3;
   --impower-white: #fff;;
@@ -21,7 +29,7 @@
   --impower-black: #1D1D1F;
 }
 h1,h2,h3, strong {
-  font-family: 'Inter';
+  font-family: 'Impower-Inter';
   color: var(--impower-blue);
 }
 section.center{
@@ -42,7 +50,7 @@ section{
   max-width: var(--slide-width);
   max-height: var(--slide-height);
   color: var(--impower-black);
-  font-family: 'Inter', sans-serif;
+  font-family: 'Impower-Inter';
   background-color: #fff;
   background-repeat: no-repeat;
 }
