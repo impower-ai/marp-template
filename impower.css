@@ -1,0 +1,139 @@
+/* @theme impower */
+@import 'default';
+@import url('https://fonts.googleapis.com/css?family=Inter&display=swap');
+
+@font-face {
+  font-family: impower-inter;
+  src: url('assets/inter.ttf') format("truetype-variations");
+}
+
+
+:root{
+  --slide-width: 1080px;
+  --slide-height: 1920px;
+  --slide-half-width: calc(var(--slide-width) / 2);
+  --impower-blue: #0071E3;
+  --impower-white: #fff;;
+  --impower-grey: rgba(65, 63, 63, 0.846);
+  --impower-charcoal: rgba(41, 40, 40, 0.846);
+  --impower-black: #1D1D1F;
+}
+h1,h2,h3, strong {
+  font-family: impower-inter;
+  color: var(--impower-blue);
+}
+section.center{
+  align-content: center;
+  display: flex;
+  align-items: center;
+}
+section blockquote{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+section.dark blockquote{
+  box-shadow: none;
+  background-color: var(--impower-grey);
+  color: var(--impower-white)
+}
+/*global*/
+section{
+  max-width: var(--slide-width);
+  max-height: var(--slide-height);
+  color: var(--impower-black);
+  font-family: impower-inter, sans-serif;
+  background-color: #fff;
+  background-repeat: no-repeat;
+}
+section footer{
+  color: var(--impower-black)
+}
+/*title slide*/
+section[data-marpit-pagination="1"]{
+  background-image: url("assets/logo-wide.png");
+  background-position: top 50px left 50px;
+  background-size: calc(var(--slide-height) * 0.3)
+}
+/*page slides*/
+section:not([data-marpit-pagination="1"]){
+  background-image: url("assets/logo.png");
+  background-size: 100px;
+  background-position: top 25px right 25px;
+}
+/* dark theme */
+section.dark{
+  background-color: var(--impower-charcoal);
+  color: var(--impower-white);
+}
+section.dark footer{
+  color: var(--impower-white);
+}
+
+
+/*page count*/
+section::after {
+  content: 'Page ' attr(data-marpit-pagination) ' / ' attr(data-marpit-pagination-total);
+}
+
+section::after {
+  font-weight: bold;
+  color: var(--impower-black);
+}
+
+section.dark::after{
+  color: var(--impower-white);
+}
+
+/*title pages*/
+section[class*="title-"] h1,h2,h3{
+  font-size: 100px;
+}
+
+/* custom bullet points */
+ol {
+  counter-reset: ol-list;
+  list-style: none;
+  padding-left: 40px;
+}
+ol li {
+  counter-increment: ol-list;
+  position: relative;
+  margin: 30px;
+  padding-top: 10px;
+}
+ol li::before {
+  content: counter(ol-list);
+  color: white;
+  font-size: 1.0em;
+  font-weight: bold;
+  position: absolute;
+  --size: 50px;
+  left: calc(-1 * var(--size) - 10px);
+  line-height: var(--size);
+  width: var(--size);
+  height: var(--size);
+  margin-top: 10px;
+  top: 0;
+  background: var(--impower-blue);
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 1px 1px 0 #999;
+}
+/* table styling */
+table{
+  width: 100%;
+  height: 100%;
+}
+table th{
+  background: var(--impower-blue);
+  color: var(--impower-white);
+}
+
+section.dark table tr{
+  background-color: var(--impower-grey);
+}
+section.dark table tr:nth-child(even){
+  background-color: var(--impower-charcoal);
+}
+table tr:nth-child(even){
+  background: #EEE;
+}
