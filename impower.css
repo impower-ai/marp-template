@@ -1,10 +1,12 @@
 /* @theme impower */
 @import 'default';
-@import url('https://fonts.googleapis.com/css?family=Inter&display=swap');
 
 @font-face {
-  font-family: impower-inter;
-  src: url('assets/inter.ttf') format("truetype-variations");
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url('https://rsms.me/inter/font-files/Inter-Thin.woff2?v=3.19') format("woff2");
 }
 
 
@@ -19,7 +21,7 @@
   --impower-black: #1D1D1F;
 }
 h1,h2,h3, strong {
-  font-family: impower-inter;
+  font-family: 'Inter';
   color: var(--impower-blue);
 }
 section.center{
@@ -40,7 +42,7 @@ section{
   max-width: var(--slide-width);
   max-height: var(--slide-height);
   color: var(--impower-black);
-  font-family: impower-inter, sans-serif;
+  font-family: 'Inter', sans-serif;
   background-color: #fff;
   background-repeat: no-repeat;
 }
