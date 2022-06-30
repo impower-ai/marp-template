@@ -59,13 +59,13 @@ section footer{
 }
 /*title slide*/
 section[data-marpit-pagination="1"]{
-  background-image: url("assets/logo-wide.png");
+  background-image: url("impower-wide.png");
   background-position: top 50px left 50px;
   background-size: calc(var(--slide-height) * 0.3)
 }
 /*page slides*/
 section:not([data-marpit-pagination="1"]){
-  background-image: url("assets/logo.png");
+  background-image: url("impower.svg");
   background-size: 100px;
   background-position: top 25px right 25px;
 }

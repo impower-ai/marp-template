@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg6930"
+   width="195"
+   height="158.01172"
+   viewBox="0 0 195 158.01172"
+   sodipodi:docname="impower.svg"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs6934" />
+  <sodipodi:namedview
+     id="namedview6932"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="true"
+     inkscape:snap-grids="true"
+     inkscape:zoom="8.08"
+     inkscape:cx="98.329208"
+     inkscape:cy="35.519802"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="1072"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     units="mm"
+     fit-margin-top="5"
+     fit-margin-left="5"
+     fit-margin-right="5"
+     fit-margin-bottom="5">
+    <inkscape:grid
+       type="xygrid"
+       id="grid7515"
+       originx="0"
+       originy="0.0058605487" />
+  </sodipodi:namedview>
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Image"
+     id="g6936"
+     transform="translate(0,0.00586055)" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="Image 1"
+     transform="translate(0,0.00586055)">
+    <path
+       style="fill:#0071e3;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 5,90 V 58 c 0,-2.134375 2.86563,-4 5,-4 2.13437,0 5,1.865625 5,4 v 6 c 0,1.943651 3.06081,2.868392 5,3 2.53276,0.171893 7,-0.461409 7,-3 V 32 c 0,-2.134375 2.86563,-4 5,-4 2.13437,0 5,1.865625 5,4 v 45 c 0,2.60342 3.39658,5 6,5 2.60342,0 6,-2.39658 6,-5 V 17 c 0,-1.943651 3.05635,-3 5,-3 1.94365,0 5,1.056349 5,3 v 14 c 0,2.236068 3.76393,3 6,3 2.23607,0 6,-0.763932 6,-3 V 12 c 0,-1.943651 3.05635,-3 5,-3 1.94365,0 5,1.056349 5,3 v 46 c 0,2.403701 3.59856,4.104214 6,4 2.13237,-0.09254 5,-1.865625 5,-4 V 8 c 0,-2.236068 3.76558,-3.085813 6,-3 1.94222,0.07459 5,1.056351 5,3 v 27 c 0,2.403703 3.59856,4.104214 6,4 2.13237,-0.09254 5,-1.865624 5,-4 V 12 c 0,-1.943649 3.05778,-2.925409 5,-3 2.23442,-0.08581 6,0.763932 6,3 v 78 c 0,2.4037 3.59856,4.10421 6,4 2.13237,-0.0925 5,-1.86562 5,-4 V 21 c 0,-1.943649 3.3053,-4.410558 5.24752,-4.485149 C 143.48194,16.429041 147,18.763932 147,21 v 29 c 0,2.134376 2.86763,3.907463 5,4 2.40144,0.104214 6,-1.596297 6,-4 V 31 c 0,-2.134376 2.86563,-4 5,-4 2.13437,0 5,1.865624 5,4 v 35 c 0,2.403703 3.5963,4 6,4 2.4037,0 6,-1.596297 6,-4 v -9 c 0,-1.943649 3.05635,-3 5,-3 1.94365,0 5,1.056351 5,3 v 34 c 0,1.94364 -3.05635,3 -5,3 -1.94365,0 -5,-1.05636 -5,-3 v -7 c 0,-2.23607 -3.76393,-3 -6,-3 -2.23607,0 -6,0.76393 -6,3 v 28 c 0,1.94364 -3.05635,3 -5,3 -1.94365,0 -5,-1.05636 -5,-3 V 68 c 0,-2.403703 -3.59856,-4.104214 -6,-4 -2.13237,0.09254 -5,1.865624 -5,4 v 53 c 0,2.23607 -3.76558,3.08581 -6,3 -1.94222,-0.0746 -5,-1.05636 -5,-3 v -14 c 0,-1.94364 -3.05778,-2.92541 -5,-3 -2.23442,-0.0858 -6,0.76393 -6,3 v 43 c 0,1.94364 -3.05778,2.92541 -5,3 -2.23442,0.0858 -6,-0.76393 -6,-3 V 52 c 0,-1.943649 -3.05778,-2.925409 -5,-3 -2.23442,-0.08581 -6,0.763932 -6,3 v 70 c 0,2.4037 -3.59856,4.10421 -6,4 -2.13237,-0.0925 -5,-1.86562 -5,-4 V 76 c 0,-2.134375 -2.86763,-3.907463 -5,-4 -2.40144,-0.104214 -6,1.596299 -6,4 v 41 c 0,2.13438 -2.86562,4 -5,4 -2.13438,0 -5,-1.86562 -5,-4 V 48 c 0,-2.403701 -3.5963,-4 -6,-4 -2.4037,0 -6,1.596299 -6,4 v 54 c 0,2.23607 -3.77297,3.20081 -6,3 -1.65993,-0.14968 -4,-1.33334 -4,-3 v -6 c 0,-2.4037 -3.5963,-4 -6,-4 -2.4037,0 -6,1.5963 -6,4 v 6 c 0,2.13438 -2.86563,4 -5,4 -2.13437,0 -5,-1.86562 -5,-4 V 82 c 0,-2.60342 -3.39658,-5 -6,-5 -2.60342,0 -6,2.39658 -6,5 v 8 c 0,2.13438 -2.86563,4 -5,4 -2.13437,0 -5,-1.86562 -5,-4 z"
+       id="path7519"
+       sodipodi:nodetypes="sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss" />
+  </g>
+</svg>
